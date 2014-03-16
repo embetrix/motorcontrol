@@ -22,8 +22,6 @@ def moveServoMotor(pos):
         except:
             pass
 
-
-
 def moveDCMotor(direction, speed1, speed2):
 
         try:
