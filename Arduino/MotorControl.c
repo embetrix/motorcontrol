@@ -48,7 +48,6 @@ void loop() {
   }
 }
 
-
 void MoveDCMotorMotor(int direction, int speed1, int speed2){
     motor1.setSpeed(speed1);
     motor2.setSpeed(speed2);  
@@ -56,7 +55,6 @@ void MoveDCMotorMotor(int direction, int speed1, int speed2){
     motor1.run(direction);
     motor2.run(direction);
 }
-
 
 void MoveServoMotor(int pos){                          
     servo.write(pos);            
