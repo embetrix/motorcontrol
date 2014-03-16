@@ -9,7 +9,6 @@ import socket
 # allow multiple joysticks
 joy = []
 
-
 xpos=0
 ypos=0
 speed1=0
