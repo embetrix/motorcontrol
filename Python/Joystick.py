@@ -98,9 +98,6 @@ def handleJoyEvent(e):
         pass
 
 
-
-
-
 def sendCommand(string):
     HOST, PORT = 'localhost', 1234
     UDP_IP = "192.168.1.143"
@@ -112,7 +109,6 @@ def sendCommand(string):
         sock.sendto(string, (UDP_IP, UDP_PORT))
     except:
         pass
-
 
 
 # print the joystick position
