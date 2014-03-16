@@ -7,8 +7,6 @@ usbport = "/dev/ttyACM0"
 
 motor = serial.Serial(usbport, 9600, timeout=1)
 
-
-
 def moveServoMotor(pos):
 
         try:
