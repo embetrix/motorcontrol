@@ -8,9 +8,6 @@ AF_DCMotor motor2(2, MOTOR12_64KHZ);
 //Create servo motor instance
 Servo servo;
 
-
-
-
 int startbyte;
 int Buffer[3];
 int i;
