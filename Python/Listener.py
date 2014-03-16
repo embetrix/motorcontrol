@@ -13,7 +13,6 @@ sock.bind((UDP_IP, UDP_PORT))
 
 print "Listening on UDP PORT %s" %UDP_PORT
 
-
 while(1):
 
         sockdata, addr = sock.recvfrom(64) # buffer size is 64 bytes
